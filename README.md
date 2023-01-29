@@ -1,5 +1,5 @@
 # E-commerce_website_analysis_by_SQL
-This is an advanced and project-based SQL data analysis practice from Udemy. Source data is available for downloading from Udemy after users get enrolled. 
+This is an advanced and project-based SQL data analysis practice from Udemy. Source data is available for downloading from Udemy after users get enrolled. The SQL queries attached in this repository were written by myself and some modified by referring to course solutions. 
 
 ## Introduction and Objective of this project
 1. Users will analyze and optimize marketing channels, measure and test website conversion performance, and use data to understand the impact of new product launches.
@@ -26,5 +26,5 @@ example : www.abcwebsite.com?utm_source=trafficSource&utm_campaign=campaignName
 1. **JOIN with various conditions**
 2. **Creating temp tables**
 3. **How to create pivot table with COUNT(CASE WHEN) in SQL**
-4. **Sub-query and when to use it**
-5. 
+4. **Sub-query and when and how to use it**
+5. **Window functions**
