@@ -3,9 +3,8 @@
 -- 3. Remove 'item_purchased' and 'order_id' and GROUP by 'primary_product_id'
 SELECT 
 	primary_product_id,
-	
 	COUNT(DISTINCT CASE WHEN items_purchased = 1 THEN order_id ELSE NULL END) AS ct_single_item_orders, 
-    COUNT(DISTINCT CASE WHEN items_purchased = 2 THEN order_id ELSE NULL END) AS ct_double_item_orders
+	COUNT(DISTINCT CASE WHEN items_purchased = 2 THEN order_id ELSE NULL END) AS ct_double_item_orders
 FROM orders
-WHERE order_id BETWEEN 31000 AND 32000
+	WHERE order_id BETWEEN 31000 AND 32000
 GROUP BY 1
