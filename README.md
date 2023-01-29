@@ -12,7 +12,19 @@ This is an advanced and project-based SQL data analysis practice from Udemy. Sou
 1. Paid traffic 
 2. utm_tracking parameters (utm_source, utm_campaign..)
 example : www.abcwebsite.com?utm_source=trafficSource&utm_campaign=campaignName
+3. Bounce rate
+4. Landing page
+5. Conversion funnel
 
-### Key analysis types and SQL skills in this project
+### Key analysis types in this project
 1. **Traffic source analysis**
 2. **Traffic conversion rate**
+3. **Bounce rate**
+4. **Landing page and its performance**
+
+### Key SQL skills in this practice
+1. **JOIN with various conditions**
+2. **Creating temp tables**
+3. **How to create pivot table with COUNT(CASE WHEN) in SQL**
+4. **Sub-query and when to use it**
+5. 
