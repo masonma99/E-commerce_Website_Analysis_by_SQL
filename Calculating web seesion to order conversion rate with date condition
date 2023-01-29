@@ -1,9 +1,8 @@
 
-
 SELECT 
 	COUNT(website_sessions.website_session_id) AS sessions,
-    COUNT(orders.order_id) AS orders,
-    COUNT(order_id) / COUNT(website_sessions.website_session_id) AS session_to_order_conv_rt
+	COUNT(orders.order_id) AS orders,
+	COUNT(order_id) / COUNT(website_sessions.website_session_id) AS session_to_order_conv_rt
 FROM website_sessions
 	LEFT JOIN orders
     ON orders.website_session_id = website_sessions.website_session_id
